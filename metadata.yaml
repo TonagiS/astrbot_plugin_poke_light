@@ -1,0 +1,9 @@
+﻿name: astrbot_plugin_poke_light
+display_name: 轻量戳一戳
+author: Tonagi
+desc: 只处理 QQ 戳一戳：被戳时按概率回一句、按概率反戳，白名单群才响应；老爹和群友分池回话，不再把群友都当老爹；没戳的时候一行都不跑，不注入 prompt。
+version: 1.0.1
+astrbot_version: ">=4.22.0"
+support_platforms:
+  - aiocqhttp
+repo: "https://github.com/TonagiS/astrbot_plugin_poke_light"
